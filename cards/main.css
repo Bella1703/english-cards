@@ -25,3 +25,8 @@
 .card__second-side {
     background-color: bisque;
 }
+
+img {
+    width: 100%;
+    max-width: 600px;
+}
