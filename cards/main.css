@@ -1,17 +1,23 @@
 .card__first-side, .card__second-side {
     display: none;
-    width: calc(100vw - 30px);
+    width: calc(100% - 60px);
     max-width: 900px;
     height: calc(100vh - 30px);
     max-height: 600px;
     margin:  100px auto;
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     border-radius: 10px;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .card__first-side, .card__second-side {
+        font-size: 50px;
+    }
 }
 
 .card__first-side.active, .card__second-side.active {
