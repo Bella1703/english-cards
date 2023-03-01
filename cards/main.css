@@ -1,0 +1,27 @@
+.card__first-side, .card__second-side {
+    display: none;
+    width: calc(100vw - 30px);
+    max-width: 900px;
+    height: calc(100vh - 30px);
+    max-height: 600px;
+    margin:  100px auto;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.card__first-side.active, .card__second-side.active {
+    display: flex;
+}
+
+.card__first-side {
+    background-color: blanchedalmond;
+}
+
+.card__second-side {
+    background-color: bisque;
+}
