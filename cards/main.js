@@ -20,5 +20,9 @@ cards.forEach(card => {
 
 const swiper = new Swiper('.swiper', {
     loop: true,
-    pagination: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    spaceBetween: 300,
 });

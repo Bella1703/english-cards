@@ -1,8 +1,8 @@
 .card__first-side, .card__second-side {
     display: none;
-    width: calc(100% - 60px);
+    width: calc(100% - 140px);
     max-width: 900px;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 290px);
     max-height: 600px;
     margin:  100px auto;
     font-size: 20px;
@@ -25,7 +25,7 @@
 }
 
 .card__first-side {
-    background-color: blanchedalmond;
+    background-color: aquamarine;
 }
 
 .card__second-side {
@@ -33,6 +33,12 @@
 }
 
 img {
-    width: 100%;
-    max-width: 600px;
+    width: auto;
+    max-width: calc(100% - 20px);
+    height: auto;
+    max-height: calc(100vh - 420px);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    color: dimgray;
 }
